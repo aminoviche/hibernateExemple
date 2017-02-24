@@ -25,7 +25,7 @@ public class App {
 
 		Stock stock = new Stock();
         stock.setStockCode("7052"+randomGenerator.nextInt(100000));
-        stock.setStockName("PADINI"+randomGenerator.nextInt(1000000));
+        stock.setStockName("PADINI"+randomGenerator.nextInt(1000000));  
         
       //first save
         session.save(stock);
