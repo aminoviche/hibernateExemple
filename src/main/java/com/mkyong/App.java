@@ -17,7 +17,7 @@ import com.mkyong.util.HibernateUtil;
  */
 public class App {
 	public static void main(String[] args) {
-		System.out.println("test1");
+		System.out.println("commit4");
 		System.out.println("Hibernate one to many (Annotation)");
 		Session session = HibernateUtil.getSessionFactory().openSession();
 
