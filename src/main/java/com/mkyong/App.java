@@ -41,7 +41,7 @@ public class App {
         stockDailyRecords.setStock(stock);        
         stock.getStockDailyRecords().add(stockDailyRecords);
 
-        
+        System.out.println("commit5");
         //second save
         session.save(stockDailyRecords);
         
