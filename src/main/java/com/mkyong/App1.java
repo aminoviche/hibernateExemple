@@ -6,7 +6,6 @@ import java.util.Random;
 import org.hibernate.Session;
 
 import com.mkyong.stock.Stock1;
-import com.mkyong.stock.StockDailyRecord;
 import com.mkyong.stock.StockDailyRecord1;
 import com.mkyong.util.HibernateUtil;
 
@@ -17,6 +16,7 @@ public class App1 {
 	
 	
 	public static void main(String[] args) {
+		
 		System.out.println("Hibernate one to many (Annotation)");
 		Session session = HibernateUtil.getSessionFactory().openSession();
 
