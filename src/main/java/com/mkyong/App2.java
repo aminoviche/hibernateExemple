@@ -14,13 +14,13 @@ import com.mkyong.util.HibernateUtil;
 //test cascade delete
 public class App2 {
 	public static void main(String[] args) {
-		System.out.println("Hibernate one to many (Annotation)");
+		System.out.println("Hibernate one to many (Annotation) edfd");
 		Session session = HibernateUtil.getSessionFactory().openSession();
 
 		session.beginTransaction();
 		
 		
-		Query query = session.createQuery("from Stock2 where stockId=50 " );
+		Query query = session.createQuery("from Stock2 where stockId=50  " );
 		
 		Stock2 stock =(Stock2) query.uniqueResult();
 		
