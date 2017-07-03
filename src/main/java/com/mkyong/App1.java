@@ -16,8 +16,7 @@ public class App1 {
 	
 	
 	public static void main(String[] args) {
-		
-		System.out.println("Hibernate one to many (Annotation) dfdfd");
+		System.out.println("Hibernate one to many (Annotation)");
 		Session session = HibernateUtil.getSessionFactory().openSession();
 
 		session.beginTransaction();
